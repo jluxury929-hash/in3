@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["index.js", "mev_backend.js", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
